@@ -52,6 +52,10 @@ cat urls.txt | python3 paramhunter.py -w wordlist.txt -v -r 5 -t 10
 
 This will run ParamHunter with verbose output, a rate limit of 5 requests per second, and a timeout of 10 seconds per request.
 
+Example of findings
+![image](https://github.com/user-attachments/assets/fb5f416e-7e2f-4b98-a910-5dfd8a229d62)
+
+
 ## Output
 
 ParamHunter outputs the full HTTP GET requests for each URL, including any discovered parameters. In verbose mode, it also provides detailed information about the discovery process.
